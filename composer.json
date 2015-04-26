@@ -1,0 +1,23 @@
+{
+    "require": {
+        "djmattyg007/emailparser": "2.1.0",
+        "pear/net_smtp2": "dev-master",
+        "pear/net_socket": "dev-trunk",
+        "pear/net_socket2": "dev-master",
+        "pear/auth_sasl2": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/pear/Net_SMTP2.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/pear/Net_Socket2.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/pear/Auth_SASL2.git"
+        }
+    ]
+}

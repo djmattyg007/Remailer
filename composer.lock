@@ -1,0 +1,323 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f7ac16ee1d7b1efb0a03c6c6e618949a",
+    "packages": [
+        {
+            "name": "djmattyg007/emailparser",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/djmattyg007/official-library-php-email-parser.git",
+                "reference": "110750988699f92f5599e7c14e34e21a41447ae7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/djmattyg007/official-library-php-email-parser/zipball/110750988699f92f5599e7c14e34e21a41447ae7",
+                "reference": "110750988699f92f5599e7c14e34e21a41447ae7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PlancakeEmailParser": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Occhipinti",
+                    "email": "dan@plancake.com"
+                },
+                {
+                    "name": "Matthew Gamble",
+                    "email": "git@matthewgamble.net"
+                }
+            ],
+            "description": "Fork of the Plancake Email Parser with additional features",
+            "homepage": "http://www.plancake.com",
+            "keywords": [
+                "email",
+                "parser"
+            ],
+            "time": "2015-04-26 02:43:32"
+        },
+        {
+            "name": "pear/auth_sasl2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Auth_SASL2.git",
+                "reference": "32dd97ab71c55027ac32bd7d31b327d8cfd1b1b0"
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Auth_SASL2": ""
+                }
+            },
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Anish Mistry",
+                    "email": "amistry@am-productions.biz"
+                },
+                {
+                    "name": "Richard Heyes",
+                    "email": "richard@php.net"
+                },
+                {
+                    "name": "Michael Bretterklieber",
+                    "email": "michael@bretterklieber.com"
+                }
+            ],
+            "description": "Provides code to generate responses to common SASL mechanisms, including: [Digest-MD5, Cram-MD5, Plain, Anonymous, Login (Pseudo mechanism), SCRAM]",
+            "homepage": "https://github.com/pear/Auth_SASL2",
+            "keywords": [
+                "sasl"
+            ],
+            "time": "2014-02-05 02:15:18"
+        },
+        {
+            "name": "pear/net_smtp2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Net_SMTP2.git",
+                "reference": "610c1cfa42c9d0d8354c3d0152d4e4adbe6bd518"
+            },
+            "require": {
+                "pear/net_socket": "*",
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "pear/auth_sasl": "Install optionally via your project's composer.json"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net": "./"
+                }
+            },
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "PHP License"
+            ],
+            "authors": [
+                {
+                    "email": "jon@php.net",
+                    "name": "Jon Parise",
+                    "homepage": "http://www.indelible.org",
+                    "role": "Lead"
+                },
+                {
+                    "email": "chuck@horde.org",
+                    "name": "Chuck Hagenbuch",
+                    "role": "Lead"
+                }
+            ],
+            "description": "An implementation of the SMTP protocol",
+            "homepage": "http://pear.github.io/Net_SMTP2/",
+            "keywords": [
+                "email",
+                "mail",
+                "smtp"
+            ],
+            "support": {
+                "issues": "https://github.com/pear/Net_SMTP2/issues",
+                "source": "https://github.com/pear/Net_SMTP2"
+            },
+            "time": "2014-06-04 06:06:42"
+        },
+        {
+            "name": "pear/net_socket",
+            "version": "dev-trunk",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Net_Socket.git",
+                "reference": "bbe6a12bb4f7059dba161f6ddd43f369c0ec8d09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Net_Socket/zipball/bbe6a12bb4f7059dba161f6ddd43f369c0ec8d09",
+                "reference": "bbe6a12bb4f7059dba161f6ddd43f369c0ec8d09",
+                "shasum": ""
+            },
+            "require": {
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "PHP License"
+            ],
+            "authors": [
+                {
+                    "name": "Chuck Hagenbuch",
+                    "email": "chuck@horde.org",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Aleksander Machniak",
+                    "email": "alec@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Stig Bakken",
+                    "email": "stig@php.net",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/Net_Socket",
+            "time": "2015-03-22 15:48:19"
+        },
+        {
+            "name": "pear/net_socket2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Net_Socket2.git",
+                "reference": "844e786aea06809f2e738fe2f894a8c610739d09"
+            },
+            "require": {
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net": "./"
+                }
+            },
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "PHP License"
+            ],
+            "authors": [
+                {
+                    "email": "chuck@horde.org",
+                    "name": "Chuck Hagenbuch",
+                    "role": "Lead"
+                },
+                {
+                    "email": "stig@php.net",
+                    "name": "Stig Bakken",
+                    "role": "Lead"
+                },
+                {
+                    "email": "alec@php.net",
+                    "name": "Aleksander Machniak",
+                    "role": "Lead"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/Net_Socket2",
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_Socket2",
+                "source": "https://github.com/pear/Net_Socket2"
+            },
+            "time": "2015-03-23 14:31:27"
+        },
+        {
+            "name": "pear/pear_exception",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/PEAR_Exception.git",
+                "reference": "8c18719fdae000b690e3912be401c76e406dd13b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/8c18719fdae000b690e3912be401c76e406dd13b",
+                "reference": "8c18719fdae000b690e3912be401c76e406dd13b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "class",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PEAR": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "."
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net"
+                }
+            ],
+            "description": "The PEAR Exception base class.",
+            "homepage": "https://github.com/pear/PEAR_Exception",
+            "keywords": [
+                "exception"
+            ],
+            "time": "2015-02-10 20:07:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pear/net_smtp2": 20,
+        "pear/net_socket": 20,
+        "pear/net_socket2": 20,
+        "pear/auth_sasl2": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
