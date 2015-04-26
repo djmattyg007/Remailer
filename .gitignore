@@ -1,2 +1,5 @@
 /vendor/
 /whitelist.php
+/error_log
+/email_output.log
+/email_env.log
