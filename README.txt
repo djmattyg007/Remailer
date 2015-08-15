@@ -12,3 +12,5 @@ cPanel and tell it to pipe all unrouted email to email.php. You will also need
 to create a PHP file named "whitelist.php" in the same directory as email.php.
 This file should return a flat PHP array with a list of email addresses for
 which plus addressing should be allowed.
+
+This program is released into the public domain without any warranty.
